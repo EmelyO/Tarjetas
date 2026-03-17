@@ -18,7 +18,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    gap: 10px;
+    gap: 5px;
     box-shadow:5px 10px 15px rgba(0, 0, 0, 0.3);
     height: 500px;
     width: 300px;
@@ -47,7 +47,7 @@ body{
     background-color: rgb(255, 179, 41);
 }
 
-img{
+.productos{
     padding: 20px;
     background-color: rgb(244, 241, 241);
     height: 200px;
@@ -84,4 +84,22 @@ h3{
     margin-bottom: 10px;
 }
 
+#precio1{
+    color: rgb(52, 204, 172);
+    font-size: 20px;
+}
 
+#precio2{
+    color: rgb(255, 87, 51);
+    font-size: 20px;
+}
+
+#precio3{
+    color: rgb(255, 179, 41);
+    font-size: 20px;
+}
+
+img{
+    height: 20px;
+    width: auto;
+}
